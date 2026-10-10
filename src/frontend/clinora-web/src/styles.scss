@@ -1,0 +1,21 @@
+:root {
+  color-scheme: dark;
+  --clinora-background: #111311;
+  --clinora-surface: #1b1d1a;
+  --clinora-text: #f2f0e9;
+  --clinora-accent: #b99563;
+  --clinora-secondary: #9baa91;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--clinora-background);
+  color: var(--clinora-text);
+  font-family: Inter, "Segoe UI", sans-serif;
+}
